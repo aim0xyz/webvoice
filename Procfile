@@ -1,2 +1,1 @@
-web: python web_voice_api.py
-
+web: uvicorn web_voice_api:app --host 0.0.0.0 --port $PORT
