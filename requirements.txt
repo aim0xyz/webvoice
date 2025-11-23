@@ -1,9 +1,8 @@
 # Requirements for Web Voice Recording API (web_voice_api.py)
-# Use this file when deploying the backend API
+# Railway auto-detects requirements.txt for Python projects
 
 fastapi==0.104.1
 uvicorn[standard]==0.24.0
-httpx==0.25.0
+httpx==0.24.1
 firebase-admin==6.2.0
 python-multipart==0.0.6
-
